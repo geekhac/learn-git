@@ -6,3 +6,4 @@
 5. ```git pull --rebase origin 1``` ,远程的1分支并没有改变，而1本地合并了1远程的分支，又有了a文件，reademe和master是同步的
 6. ```git push origin 1 -f``` 强推，此时远程1的reademe更新，和远程master 同步。
 7. 新建并切换到2分支，```git rebase 1``` ,2分支上本地和1同步
+8. ```git reset --hard origin``` 此时2分支上没有没有了a文件没有，reademe和分支1 一样，更新到5，而本地的master一一直都是1.
