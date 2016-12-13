@@ -1,1 +1,1 @@
-a
+a git ci -am
